@@ -7,7 +7,7 @@
   "rich-text#workshop": {
     "props": {
       "text": "*Hello World!*",
-      "textPosition": "CENTER"
+      "textPosition": "RIGHT"
     }
   }
 }
