@@ -1,13 +1,13 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "rich-text"
     ]
   },
   "rich-text": {
     "props": {
-      "text": "**Hello World!**",
-      "textPosition": "RIGHT"
+      "text": "*Hello, World!*",
+      "textPosition": "CENTER"
     }
   }
 }
