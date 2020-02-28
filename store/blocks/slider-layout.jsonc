@@ -1,4 +1,19 @@
 {
+  "slider-layout#home": {
+    "children": 
+    ["image#brand-1",
+       "image#brand-2", 
+       "image#brand-3", 
+       "image#brand-4",
+       "image#brand-5",
+       "image#brand-4"],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true 
+      }
+    }
+  },
     "image#brand-1": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png"
