@@ -28,3 +28,7 @@
     margin: 0 auto;
     padding: 0;
 }
+
+.infoCardContainer--metal {
+    background-color: #e1e1e1;
+}
