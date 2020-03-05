@@ -1,0 +1,57 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#1-desktop",
+            "header-row#2-desktop"
+        ]
+    },
+
+    "header-row#1-desktop": {
+        "children": [
+            "vtex.menu@2.x:menu#tiendas",
+            "vtex.menu@2.x:menu#condiciones",
+            "vtex.menu@2.x:menu#despacho",
+            "vtex.menu@2.x:menu#comprar"
+        ],
+        "props": {
+            "blockClass": "menu-link",
+            "inverted": "true"
+        }
+    },
+    "header-row#2-desktop": {
+        "children": [
+            "logo#desktop",
+            "vtex.menu@2.x:menu#category-menu",
+            "header-spacer",
+            "header-spacer",
+            "search-bar",
+            "locale-switcher",
+            "login",
+            "minicart"
+        ],
+        "props": {
+            "sticky": true,
+            "blockClass": "main-header"
+        }
+    },
+    "logo#desktop": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "https://ficcus.vtexassets.br/arquivos/logo-ficcusio.png",
+            "width": "180"
+        }
+    }
+}

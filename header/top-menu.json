@@ -1,0 +1,71 @@
+{
+    "vtex.menu@2.x:menu#topbar": {
+        "children": [
+            "menu-item#tiendas",
+            "menu-item#condiciones",
+            "menu-item#despacho",
+            "menu-item#comprar"
+        ]
+    },
+    "menu-item#tiendas": {
+        "props": {
+            "id": "menu-item-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tiendas",
+                "text": "Tiendas"
+            }
+        }
+    },
+    "menu-item#condiciones": {
+        "props": {
+            "id": "menu-item-condiciones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Términos y Condiciones",
+                "text": "| Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#despacho": {
+        "props": {
+            "id": "menu-item-despacho",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Valores de Despacho",
+                "text": "| Valores de Despacho"
+            }
+        }
+    },
+    "menu-item#comprar": {
+        "props": {
+            "id": "menu-item-comprar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cómo Comprar",
+                "text": "| Cómo Comprar"
+            }
+        }
+    }
+
+}
